@@ -1,7 +1,7 @@
 <?php
     require("password.php");
 
-    $con = mysqli_connect("VH260.spaceweb.ru", "gadgetgoru_lfl", "Volgograd7", "gadgetgoru_lfl");
+    $con = mysqli_connect("localhost", "gadgetgoru_lfl", "Volgograd7", "gadgetgoru_lfl");
 
     $username = $_POST["username"];
     $password = $_POST["password"];
